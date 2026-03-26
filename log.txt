@@ -1,0 +1,136 @@
+2026-02-26T08:47:22.325+08:00 [error] [1772066838880_340623][SSH] Connection failed during wait: SSH waitForConnection process exit: 0 
+2026-02-26T08:47:22.325+08:00 [info] [1772066838880_340623][SSH] Resources already cleaned up, skipping 
+2026-02-26T08:47:22.325+08:00 [error] [1772066838880_340623][SSH:connect] l: SSH connection failed(192.168.127.101): SSH waitForConnection process exit: 0 (caused by: SSH connection failed(192.168.127.101): SSH waitForConnection process exit: 0) {
+  code: 'SSH_CONNECTION_FAILED',
+  category: 'connection',
+  severity: 'high',
+  recoverable: true,
+  recoveryStrategy: 'reconnect'
+}
+2026-02-26T08:47:22.325+08:00 [info] [1772066838880_340623][SSH:Recovery] Attempting to reconnect after SSH_CONNECTION_FAILED 
+2026-02-26T08:47:22.325+08:00 [info] [1772066838880_340623][SSH] Resources already cleaned up, skipping 
+2026-02-26T08:47:22.325+08:00 [error] [1772066838880_340623][EstablishSSHStep] SSH connection failed: SSH connection failed(192.168.127.101): SSH waitForConnection process exit: 0 SSH_CONNECTION_FAILED
+2026-02-26T08:47:22.325+08:00 [warning] [1772066838880_340623][establish_ssh_connection] ⚠️ Step failed after 165ms (no retry) 
+2026-02-26T08:47:22.325+08:00 [info] [1772066838880_340623][ResolvePipeline] Step 'establish_ssh_connection' failed in 165ms 
+2026-02-26T08:47:22.325+08:00 [error] [1772066838880_340623][ResolvePipeline] Pipeline execution failed: SSH_CONNECTION_FAILED SSH connection failed(192.168.127.101): SSH waitForConnection process exit: 0
+2026-02-26T08:47:22.325+08:00 [info] [1772066838880_340623][ResolvePipeline] Cleaning up pipeline resources 
+2026-02-26T08:47:22.326+08:00 [error] [1772066838880_340623]Error resolving authority: SSH_CONNECTION_FAILED SSH connection failed(192.168.127.101): SSH waitForConnection process exit: 0
+2026-02-26T08:47:44.704+08:00 [info] [Remote-SSH (TRAE)] { visible: true }
+2026-02-26T08:48:14.025+08:00 [info] [addNewHost] config{"Host":"192.168.127.101","HostName":"192.168.127.101","User":"vanswei"}
+2026-02-26T08:48:14.031+08:00 [info] [addNewHost] currentConfig[{"type":1,"param":"Host","separator":" ","value":"\\wsl.localhostUbuntuhomevans7621","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"\\wsl.localhostUbuntuhomevans7621","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"172.27.231.186","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"172.27.231.186","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"172.27.231.186","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"172.27.231.186","before":"  ","after":"\n"},{"type":1,"param":"LogLevel","separator":" ","value":"verbose","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"172.27.231.186","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"172.27.231.186","before":"  ","after":"\n"},{"type":1,"param":"User","separator":" ","value":"vans","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"172.27.231.186","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"172.27.231.186","before":"  ","after":"\n"},{"type":1,"param":"User","separator":" ","value":"vans","before":"  ","after":"\n"},{"type":1,"param":"ForwardAgent","separator":" ","value":"yes","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"172.27.231.186","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"172.27.231.186","before":"  ","after":"\n"},{"type":1,"param":"User","separator":" ","value":"vans","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"172.27.231.186","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"172.27.231.186","before":"  ","after":"\n"},{"type":1,"param":"User","separator":" ","value":"vans","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"\\wsl$","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"\\wsl$","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"192.168.1.101","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"192.168.1.101","before":"  ","after":"\n"},{"type":1,"param":"User","separator":" ","value":"vanswei","before":"  ","after":"\n"},{"type":1,"param":"Password","separator":" ","value":"vans","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"192.168.127.101","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"192.168.127.101","before":"  ","after":"\n"},{"type":1,"param":"User","separator":" ","value":"vanswei","before":"  ","after":"\n"},{"type":1,"param":"Password","separator":" ","value":"dbjtech@3.1415","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"192.168.127.101","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"192.168.127.101","before":"  ","after":"\n"},{"type":1,"param":"User","separator":" ","value":"vanswei","before":"  ","after":"\n"},{"type":1,"param":"Password","separator":" ","value":"dbjtech@3.1415","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"192.168.127.101","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"192.168.127.101","before":"  ","after":"\n"},{"type":1,"param":"User","separator":" ","value":"vanswei","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"192.168.127.101","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"192.168.127.101","before":"  ","after":"\n"},{"type":1,"param":"User","separator":" ","value":"vanswei","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"192.168.127.101","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"192.168.127.101","before":"  ","after":"\n"},{"type":1,"param":"User","separator":" ","value":"vanswei","before":"  ","after":"\n"},{"type":1,"param":"ForwardAgent","separator":" ","value":"yes","before":"  ","after":""}]}]
+2026-02-26T08:48:14.032+08:00 [info] [addNewHost] currentConfig[{"type":1,"param":"Host","separator":" ","value":"\\wsl.localhostUbuntuhomevans7621","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"\\wsl.localhostUbuntuhomevans7621","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"172.27.231.186","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"172.27.231.186","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"172.27.231.186","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"172.27.231.186","before":"  ","after":"\n"},{"type":1,"param":"LogLevel","separator":" ","value":"verbose","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"172.27.231.186","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"172.27.231.186","before":"  ","after":"\n"},{"type":1,"param":"User","separator":" ","value":"vans","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"172.27.231.186","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"172.27.231.186","before":"  ","after":"\n"},{"type":1,"param":"User","separator":" ","value":"vans","before":"  ","after":"\n"},{"type":1,"param":"ForwardAgent","separator":" ","value":"yes","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"172.27.231.186","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"172.27.231.186","before":"  ","after":"\n"},{"type":1,"param":"User","separator":" ","value":"vans","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"172.27.231.186","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"172.27.231.186","before":"  ","after":"\n"},{"type":1,"param":"User","separator":" ","value":"vans","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"\\wsl$","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"\\wsl$","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"192.168.1.101","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"192.168.1.101","before":"  ","after":"\n"},{"type":1,"param":"User","separator":" ","value":"vanswei","before":"  ","after":"\n"},{"type":1,"param":"Password","separator":" ","value":"vans","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"192.168.127.101","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"192.168.127.101","before":"  ","after":"\n"},{"type":1,"param":"User","separator":" ","value":"vanswei","before":"  ","after":"\n"},{"type":1,"param":"Password","separator":" ","value":"dbjtech@3.1415","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"192.168.127.101","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"192.168.127.101","before":"  ","after":"\n"},{"type":1,"param":"User","separator":" ","value":"vanswei","before":"  ","after":"\n"},{"type":1,"param":"Password","separator":" ","value":"dbjtech@3.1415","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"192.168.127.101","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"192.168.127.101","before":"  ","after":"\n"},{"type":1,"param":"User","separator":" ","value":"vanswei","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"192.168.127.101","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"192.168.127.101","before":"  ","after":"\n"},{"type":1,"param":"User","separator":" ","value":"vanswei","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"192.168.127.101","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"192.168.127.101","before":"  ","after":"\n"},{"type":1,"param":"User","separator":" ","value":"vanswei","before":"  ","after":"\n"},{"type":1,"param":"ForwardAgent","separator":" ","value":"yes","before":"  ","after":"\n\n"}]},{"type":1,"param":"Host","separator":" ","value":"192.168.127.101","before":"","after":"\n","config":[{"type":1,"param":"HostName","separator":" ","value":"192.168.127.101","before":"  ","after":"\n"},{"type":1,"param":"User","separator":" ","value":"vanswei","before":"  ","after":"\n"}]}]
+2026-02-26T08:48:14.033+08:00 [info] [addNewHost] {"Host":"192.168.127.101","HostName":"192.168.127.101","User":"vanswei"}
+2026-02-26T08:51:10.041+08:00 [info] initBaseClient log sessionId: f92ac04b-a45b-42e1-a1e4-8c54bb709eea, runtime: node 
+2026-02-26T08:51:10.041+08:00 [info] [Remote-SSH (TRAE)] activated 
+2026-02-26T08:51:10.041+08:00 [info] [1772067070034_959558]Resolving ssh remote authority 'ssh-remote+7b22686f73744e616d65223a223139322e3136382e3132372e313031222c2266726f6d436f6e666967223a747275657d' (attempt #1) 
+2026-02-26T08:51:10.053+08:00 [info] [ServerConfig] enableCkgAhaRequest: false 
+2026-02-26T08:51:10.053+08:00 [info] [ServerConfig] enableSingletonCueServer: false 
+2026-02-26T08:51:10.055+08:00 [info] [1772067070034_959558][ResolvePipeline] Starting pipeline execution 
+2026-02-26T08:51:10.055+08:00 [info] [1772067070034_959558][ResolvePipeline] Executing step 1/6: establish_ssh_connection 
+2026-02-26T08:51:10.055+08:00 [info] [1772067070034_959558][establish_ssh_connection] 🚀 Step started: Establish SSH Connection 
+2026-02-26T08:51:10.056+08:00 [info] [1772067070034_959558][EstablishSSHStep] Starting SSH connection establishment 
+2026-02-26T08:51:12.410+08:00 [info] [1772067070034_959558][SSH] Connecting to 192.168.127.101 
+2026-02-26T08:51:12.438+08:00 [info] [1772067070034_959558][SSH] Full SSH command: C:\Windows\System32\OpenSSH\ssh.exe -v -T -D 13811 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ServerAliveInterval=10 -o ServerAliveCountMax=3 -o RemoteCommand=bash -l -c "exec bash --login" 192.168.127.101 
+2026-02-26T08:51:12.438+08:00 [info] [1772067070034_959558][SSH] Starting connection 
+2026-02-26T08:51:12.440+08:00 [info] [1772067070034_959558][SSH AskPass] Pipe listening: \\?\pipe\icube-askpass-undefined@192.168.127.101-1772067072439-4d8eeae6 
+2026-02-26T08:51:12.441+08:00 [info] [1772067070034_959558][SSH AskPass] askpass script: e:\Trae\resources\app\extensions\cloudide.icube-remote-ssh\out\askpass-main.js 
+2026-02-26T08:51:12.478+08:00 [info] [1772067070034_959558][SSH] AskPass environment variables set: {"SSH_ASKPASS":"C:\\Users\\LY-DN076\\AppData\\Local\\Temp\\trae-ssh-askpass-ico6712v\\askpass.cmd","SSH_ASKPASS_REQUIRE":"force","DISPLAY":"0","VSCODE_SSH_ASKPASS_NODE":"E:\\Trae\\Trae.exe","VSCODE_SSH_ASKPASS_MAIN":"e:\\Trae\\resources\\app\\extensions\\cloudide.icube-remote-ssh\\out\\askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"\\\\?\\pipe\\icube-askpass-undefined@192.168.127.101-1772067072439-4d8eeae6","VSCODE_SSH_ASKPASS_EXTRA_ARGS":""} 
+2026-02-26T08:51:12.478+08:00 [info] [1772067070034_959558][SSH] State transition: initializing → waiting_for_server: {"reason":"started waiting for server","duration":0,"newStateTimeout":540000} 
+2026-02-26T08:51:12.622+08:00 [info] [1772067070034_959558][SSH] Cleaning up resources 
+2026-02-26T08:51:12.622+08:00 [info] [1772067070034_959558][EstablishSSHStep] SSH process exited with code 0 
+2026-02-26T08:51:12.622+08:00 [info] [1772067070034_959558][SSH] State transition: waiting_for_server → failed: {"reason":"SSH waitForConnection process exit: 0","duration":143,"newStateTimeout":0} 
+2026-02-26T08:51:12.622+08:00 [error] [1772067070034_959558][SSH] Connection failed during wait: SSH waitForConnection process exit: 0 
+2026-02-26T08:51:12.622+08:00 [info] [1772067070034_959558][SSH] Resources already cleaned up, skipping 
+2026-02-26T08:51:12.623+08:00 [error] [1772067070034_959558][SSH:connect] l: SSH connection failed(192.168.127.101): SSH waitForConnection process exit: 0 (caused by: SSH connection failed(192.168.127.101): SSH waitForConnection process exit: 0) {
+  code: 'SSH_CONNECTION_FAILED',
+  category: 'connection',
+  severity: 'high',
+  recoverable: true,
+  recoveryStrategy: 'reconnect'
+}
+2026-02-26T08:51:12.623+08:00 [info] [1772067070034_959558][SSH:Recovery] Attempting to reconnect after SSH_CONNECTION_FAILED 
+2026-02-26T08:51:12.623+08:00 [info] [1772067070034_959558][SSH] Resources already cleaned up, skipping 
+2026-02-26T08:51:12.623+08:00 [info] [1772067070034_959558][EstablishSSHStep] Connection failed, retrying with enhancedCompatibilityMode=true 
+2026-02-26T08:51:12.623+08:00 [info] [1772067070034_959558][SSH] Connecting to 192.168.127.101 
+2026-02-26T08:51:12.624+08:00 [info] [1772067070034_959558][SSH] Full SSH command: C:\Windows\System32\OpenSSH\ssh.exe -v -T -D 13811 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ServerAliveInterval=10 -o ServerAliveCountMax=3 192.168.127.101 
+2026-02-26T08:51:12.624+08:00 [info] [1772067070034_959558][SSH] Starting connection 
+2026-02-26T08:51:12.624+08:00 [info] [1772067070034_959558][SSH AskPass] Pipe listening: \\?\pipe\icube-askpass-undefined@192.168.127.101-1772067072624-7f1b9dff 
+2026-02-26T08:51:12.625+08:00 [info] [1772067070034_959558][SSH AskPass] askpass script: e:\Trae\resources\app\extensions\cloudide.icube-remote-ssh\out\askpass-main.js 
+2026-02-26T08:51:12.664+08:00 [info] [1772067070034_959558][SSH] AskPass environment variables set: {"SSH_ASKPASS":"C:\\Users\\LY-DN076\\AppData\\Local\\Temp\\trae-ssh-askpass-ywwfvtyj\\askpass.cmd","SSH_ASKPASS_REQUIRE":"force","DISPLAY":"0","VSCODE_SSH_ASKPASS_NODE":"E:\\Trae\\Trae.exe","VSCODE_SSH_ASKPASS_MAIN":"e:\\Trae\\resources\\app\\extensions\\cloudide.icube-remote-ssh\\out\\askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"\\\\?\\pipe\\icube-askpass-undefined@192.168.127.101-1772067072624-7f1b9dff","VSCODE_SSH_ASKPASS_EXTRA_ARGS":""} 
+2026-02-26T08:51:12.664+08:00 [info] [1772067070034_959558][SSH] State transition: initializing → waiting_for_server: {"reason":"started waiting for server","duration":0,"newStateTimeout":540000} 
+2026-02-26T08:51:12.801+08:00 [info] [1772067070034_959558][SSH] Cleaning up resources 
+2026-02-26T08:51:12.801+08:00 [info] [1772067070034_959558][EstablishSSHStep] SSH process exited with code 0 
+2026-02-26T08:51:12.801+08:00 [info] [1772067070034_959558][SSH] State transition: waiting_for_server → failed: {"reason":"SSH waitForConnection process exit: 0","duration":137,"newStateTimeout":0} 
+2026-02-26T08:51:12.802+08:00 [error] [1772067070034_959558][SSH] Connection failed during wait: SSH waitForConnection process exit: 0 
+2026-02-26T08:51:12.802+08:00 [info] [1772067070034_959558][SSH] Resources already cleaned up, skipping 
+2026-02-26T08:51:12.802+08:00 [error] [1772067070034_959558][SSH:connect] l: SSH connection failed(192.168.127.101): SSH waitForConnection process exit: 0 (caused by: SSH connection failed(192.168.127.101): SSH waitForConnection process exit: 0) {
+  code: 'SSH_CONNECTION_FAILED',
+  category: 'connection',
+  severity: 'high',
+  recoverable: true,
+  recoveryStrategy: 'reconnect'
+}
+2026-02-26T08:51:12.802+08:00 [info] [1772067070034_959558][SSH:Recovery] Attempting to reconnect after SSH_CONNECTION_FAILED 
+2026-02-26T08:51:12.802+08:00 [info] [1772067070034_959558][SSH] Resources already cleaned up, skipping 
+2026-02-26T08:51:12.802+08:00 [error] [1772067070034_959558][EstablishSSHStep] SSH connection failed: SSH connection failed(192.168.127.101): SSH waitForConnection process exit: 0 SSH_CONNECTION_FAILED
+2026-02-26T08:51:12.802+08:00 [warning] [1772067070034_959558][establish_ssh_connection] ⚠️ Step failed after 2747ms (retry available) 
+2026-02-26T08:51:12.802+08:00 [info] [1772067070034_959558][ResolvePipeline] Step 'establish_ssh_connection' failed in 2747ms 
+2026-02-26T08:51:12.802+08:00 [info] [1772067070034_959558][ResolvePipeline] Retrying step 'establish_ssh_connection' 
+2026-02-26T08:51:12.802+08:00 [info] [1772067070034_959558][ResolvePipeline] Executing step 1/6: establish_ssh_connection 
+2026-02-26T08:51:12.802+08:00 [info] [1772067070034_959558][establish_ssh_connection] 🚀 Step started: Establish SSH Connection 
+2026-02-26T08:51:12.803+08:00 [info] [1772067070034_959558][EstablishSSHStep] Starting SSH connection establishment 
+2026-02-26T08:51:12.803+08:00 [info] [1772067070034_959558][SSH] Connecting to 192.168.127.101 
+2026-02-26T08:51:12.803+08:00 [info] [1772067070034_959558][SSH] Full SSH command: C:\Windows\System32\OpenSSH\ssh.exe -v -T -D 13811 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ServerAliveInterval=10 -o ServerAliveCountMax=3 192.168.127.101 
+2026-02-26T08:51:12.803+08:00 [info] [1772067070034_959558][SSH] Starting connection 
+2026-02-26T08:51:12.805+08:00 [info] [1772067070034_959558][SSH AskPass] Pipe listening: \\?\pipe\icube-askpass-undefined@192.168.127.101-1772067072805-6cb5637f 
+2026-02-26T08:51:12.806+08:00 [info] [1772067070034_959558][SSH AskPass] askpass script: e:\Trae\resources\app\extensions\cloudide.icube-remote-ssh\out\askpass-main.js 
+2026-02-26T08:51:12.845+08:00 [info] [1772067070034_959558][SSH] AskPass environment variables set: {"SSH_ASKPASS":"C:\\Users\\LY-DN076\\AppData\\Local\\Temp\\trae-ssh-askpass-wv29obdo\\askpass.cmd","SSH_ASKPASS_REQUIRE":"force","DISPLAY":"0","VSCODE_SSH_ASKPASS_NODE":"E:\\Trae\\Trae.exe","VSCODE_SSH_ASKPASS_MAIN":"e:\\Trae\\resources\\app\\extensions\\cloudide.icube-remote-ssh\\out\\askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"\\\\?\\pipe\\icube-askpass-undefined@192.168.127.101-1772067072805-6cb5637f","VSCODE_SSH_ASKPASS_EXTRA_ARGS":""} 
+2026-02-26T08:51:12.845+08:00 [info] [1772067070034_959558][SSH] State transition: initializing → waiting_for_server: {"reason":"started waiting for server","duration":0,"newStateTimeout":540000} 
+2026-02-26T08:51:12.973+08:00 [info] [1772067070034_959558][SSH] Cleaning up resources 
+2026-02-26T08:51:12.973+08:00 [info] [1772067070034_959558][EstablishSSHStep] SSH process exited with code 0 
+2026-02-26T08:51:12.973+08:00 [info] [1772067070034_959558][SSH] State transition: waiting_for_server → failed: {"reason":"SSH waitForConnection process exit: 0","duration":127,"newStateTimeout":0} 
+2026-02-26T08:51:12.973+08:00 [error] [1772067070034_959558][SSH] Connection failed during wait: SSH waitForConnection process exit: 0 
+2026-02-26T08:51:12.973+08:00 [info] [1772067070034_959558][SSH] Resources already cleaned up, skipping 
+2026-02-26T08:51:12.973+08:00 [error] [1772067070034_959558][SSH:connect] l: SSH connection failed(192.168.127.101): SSH waitForConnection process exit: 0 (caused by: SSH connection failed(192.168.127.101): SSH waitForConnection process exit: 0) {
+  code: 'SSH_CONNECTION_FAILED',
+  category: 'connection',
+  severity: 'high',
+  recoverable: true,
+  recoveryStrategy: 'reconnect'
+}
+2026-02-26T08:51:12.973+08:00 [info] [1772067070034_959558][SSH:Recovery] Attempting to reconnect after SSH_CONNECTION_FAILED 
+2026-02-26T08:51:12.973+08:00 [info] [1772067070034_959558][SSH] Resources already cleaned up, skipping 
+2026-02-26T08:51:12.973+08:00 [error] [1772067070034_959558][EstablishSSHStep] SSH connection failed: SSH connection failed(192.168.127.101): SSH waitForConnection process exit: 0 SSH_CONNECTION_FAILED
+2026-02-26T08:51:12.973+08:00 [warning] [1772067070034_959558][establish_ssh_connection] ⚠️ Step failed after 171ms (retry available) 
+2026-02-26T08:51:12.973+08:00 [info] [1772067070034_959558][ResolvePipeline] Step 'establish_ssh_connection' failed in 171ms 
+2026-02-26T08:51:12.973+08:00 [info] [1772067070034_959558][ResolvePipeline] Retrying step 'establish_ssh_connection' 
+2026-02-26T08:51:12.973+08:00 [info] [1772067070034_959558][ResolvePipeline] Executing step 1/6: establish_ssh_connection 
+2026-02-26T08:51:12.973+08:00 [info] [1772067070034_959558][establish_ssh_connection] 🚀 Step started: Establish SSH Connection 
+2026-02-26T08:51:12.974+08:00 [info] [1772067070034_959558][EstablishSSHStep] Starting SSH connection establishment 
+2026-02-26T08:51:12.974+08:00 [info] [1772067070034_959558][SSH] Connecting to 192.168.127.101 
+2026-02-26T08:51:12.974+08:00 [info] [1772067070034_959558][SSH] Full SSH command: C:\Windows\System32\OpenSSH\ssh.exe -v -T -D 13811 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ServerAliveInterval=10 -o ServerAliveCountMax=3 192.168.127.101 
+2026-02-26T08:51:12.974+08:00 [info] [1772067070034_959558][SSH] Starting connection 
+2026-02-26T08:51:12.975+08:00 [info] [1772067070034_959558][SSH AskPass] Pipe listening: \\?\pipe\icube-askpass-undefined@192.168.127.101-1772067072975-7207be35 
+2026-02-26T08:51:12.975+08:00 [info] [1772067070034_959558][SSH AskPass] askpass script: e:\Trae\resources\app\extensions\cloudide.icube-remote-ssh\out\askpass-main.js 
+2026-02-26T08:51:13.010+08:00 [info] [1772067070034_959558][SSH] AskPass environment variables set: {"SSH_ASKPASS":"C:\\Users\\LY-DN076\\AppData\\Local\\Temp\\trae-ssh-askpass-pufm32hr\\askpass.cmd","SSH_ASKPASS_REQUIRE":"force","DISPLAY":"0","VSCODE_SSH_ASKPASS_NODE":"E:\\Trae\\Trae.exe","VSCODE_SSH_ASKPASS_MAIN":"e:\\Trae\\resources\\app\\extensions\\cloudide.icube-remote-ssh\\out\\askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"\\\\?\\pipe\\icube-askpass-undefined@192.168.127.101-1772067072975-7207be35","VSCODE_SSH_ASKPASS_EXTRA_ARGS":""} 
+2026-02-26T08:51:13.010+08:00 [info] [1772067070034_959558][SSH] State transition: initializing → waiting_for_server: {"reason":"started waiting for server","duration":0,"newStateTimeout":540000} 
+2026-02-26T08:51:13.150+08:00 [info] [1772067070034_959558][SSH] Cleaning up resources 
+2026-02-26T08:51:13.150+08:00 [info] [1772067070034_959558][EstablishSSHStep] SSH process exited with code 0 
+2026-02-26T08:51:13.150+08:00 [info] [1772067070034_959558][SSH] State transition: waiting_for_server → failed: {"reason":"SSH waitForConnection process exit: 0","duration":140,"newStateTimeout":0} 
+2026-02-26T08:51:13.150+08:00 [error] [1772067070034_959558][SSH] Connection failed during wait: SSH waitForConnection process exit: 0 
+2026-02-26T08:51:13.150+08:00 [info] [1772067070034_959558][SSH] Resources already cleaned up, skipping 
+2026-02-26T08:51:13.150+08:00 [error] [1772067070034_959558][SSH:connect] l: SSH connection failed(192.168.127.101): SSH waitForConnection process exit: 0 (caused by: SSH connection failed(192.168.127.101): SSH waitForConnection process exit: 0) {
+  code: 'SSH_CONNECTION_FAILED',
+  category: 'connection',
+  severity: 'high',
+  recoverable: true,
+  recoveryStrategy: 'reconnect'
+}
+2026-02-26T08:51:13.150+08:00 [info] [1772067070034_959558][SSH:Recovery] Attempting to reconnect after SSH_CONNECTION_FAILED 
+2026-02-26T08:51:13.150+08:00 [info] [1772067070034_959558][SSH] Resources already cleaned up, skipping 
+2026-02-26T08:51:13.151+08:00 [error] [1772067070034_959558][EstablishSSHStep] SSH connection failed: SSH connection failed(192.168.127.101): SSH waitForConnection process exit: 0 SSH_CONNECTION_FAILED
+2026-02-26T08:51:13.151+08:00 [warning] [1772067070034_959558][establish_ssh_connection] ⚠️ Step failed after 178ms (no retry) 
+2026-02-26T08:51:13.151+08:00 [info] [1772067070034_959558][ResolvePipeline] Step 'establish_ssh_connection' failed in 178ms 
+2026-02-26T08:51:13.151+08:00 [error] [1772067070034_959558][ResolvePipeline] Pipeline execution failed: SSH_CONNECTION_FAILED SSH connection failed(192.168.127.101): SSH waitForConnection process exit: 0
+2026-02-26T08:51:13.151+08:00 [info] [1772067070034_959558][ResolvePipeline] Cleaning up pipeline resources 
+2026-02-26T08:51:13.151+08:00 [error] [1772067070034_959558]Error resolving authority: SSH_CONNECTION_FAILED SSH connection failed(192.168.127.101): SSH waitForConnection process exit: 0
