@@ -3,6 +3,7 @@ node_modules/
 dist/
 frontend/dist/
 backend/dist/
+downloads/
 *.tsbuildinfo
 .worktrees/
 openai-skills/
