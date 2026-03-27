@@ -4,6 +4,9 @@ dist/
 frontend/dist/
 backend/dist/
 downloads/
+docs/
+.trae/
+*.zip
 *.tsbuildinfo
 .worktrees/
 openai-skills/
