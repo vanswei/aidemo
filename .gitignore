@@ -7,6 +7,8 @@ downloads/
 docs/
 .trae/
 *.zip
+AI新闻-*.md
+市场晨报-*.md
 *.tsbuildinfo
 .worktrees/
 openai-skills/
