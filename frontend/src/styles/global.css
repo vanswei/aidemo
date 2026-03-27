@@ -1,0 +1,58 @@
+:root {
+  color-scheme: light;
+  --bg: #edf2f8;
+  --panel: rgba(255, 255, 255, 0.86);
+  --text: #16253b;
+  --muted: #6e7f97;
+  --xhs: #ff7b60;
+  --wx: #4593ff;
+  --line: rgba(115, 137, 170, 0.16);
+  font-family: "Aptos", "Segoe UI", "PingFang SC", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background:
+    radial-gradient(circle at top left, rgba(255, 123, 96, 0.12), transparent 24%),
+    radial-gradient(circle at top right, rgba(69, 147, 255, 0.12), transparent 22%),
+    linear-gradient(180deg, #f7f9fc 0%, #edf2f8 54%, #e8eef5 100%);
+}
+
+body {
+  margin: 0;
+  color: var(--text);
+  background: transparent;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(123, 145, 176, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(123, 145, 176, 0.04) 1px, transparent 1px);
+  background-size: 36px 36px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.42), transparent 82%);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+main {
+  width: min(1380px, calc(100vw - 40px));
+  margin: 0 auto;
+  padding: 24px 0 48px;
+}
+
+button,
+input,
+select,
+table {
+  font: inherit;
+}

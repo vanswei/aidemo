@@ -1,2 +1,8 @@
+.env
+node_modules/
+dist/
+frontend/dist/
+backend/dist/
+*.tsbuildinfo
 .worktrees/
 openai-skills/
