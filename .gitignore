@@ -9,6 +9,7 @@ docs/
 *.zip
 AI新闻-*.md
 市场晨报-*.md
+*.txt
 *.tsbuildinfo
 .worktrees/
 openai-skills/
